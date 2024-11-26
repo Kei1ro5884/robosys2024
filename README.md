@@ -14,26 +14,31 @@
 ## 概要
 
 -このコマンドは学生向けのもので、期末試験前までの学生の成績から期末試験で何点取れば単位取得(60点以上)できるかを計算します。
+
 -複数の科目で単位取得が不安な学生が、より簡単で正確に計算ができるよう作成しました。
+
 -ユーザーは中間試験やレポートなどを合わせた期末試験前の点数と、全体の成績に期末試験が占める割合を入力することで、何点取れば単位取得できるかを出力します。
 
 ## インストール方法
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
-
-git clone git@github.com:Kei1ro5884/robosys2024.git
-
+```
+$ git clone git@github.com:Kei1ro5884/robosys2024.git
+```
 ディレクトリに移動
-cd robosys2024
-
+```
+$ cd robosys2024
+```
 実行権限の付与
-chmod +x required_score.py
-
+```
+$ chmod +x required_score.py
+```
 ## 使い方
 
 実行
-./required_score.py
-
+```
+$ ./required_score.py
+```
 実行例
 ```
 $ ./required_score.py
