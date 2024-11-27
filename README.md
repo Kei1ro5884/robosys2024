@@ -22,6 +22,12 @@
 ## インストール方法
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
+
+Python3.11のインストール
+```
+$ sudo apt-get install python3.11
+```
+当リポジトリのclone
 ```
 $ git clone git@github.com:Kei1ro5884/robosys2024.git
 ```
@@ -33,6 +39,7 @@ $ cd robosys2024
 ```
 $ chmod +x required_score.py
 ```
+
 ## 使い方
 
 実行
